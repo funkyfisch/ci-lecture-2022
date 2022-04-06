@@ -1,0 +1,28 @@
+{
+  "name": "ci-lecture-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose ./test",
+    "lint": "eslint ./src/**/*.js ./test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funkyfisch/ci-lecture-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/funkyfisch/ci-lecture-2022/issues"
+  },
+  "homepage": "https://github.com/funkyfisch/ci-lecture-2022#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
